@@ -10,6 +10,9 @@ body {
 
 .nav-con{
   height: 180px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
 }
 
 nav{
@@ -24,6 +27,7 @@ nav{
   width: 100%;
 }
 nav ul{
+  padding: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
