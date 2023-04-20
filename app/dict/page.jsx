@@ -41,7 +41,7 @@ const page = () => {
               Get Meaning
             </button>
           </div>
-          <h2>{meaning}</h2>
+          <h3>{meaning}</h3>
         </>
       ) : (
         <Loading />
