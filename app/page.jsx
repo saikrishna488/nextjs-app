@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const fetchRepos = async () => {
-  const res = await fetch("https://api.github.com/users/saikrishna488/repos");
+  const res = await fetch("https://api.github.com/users/saikrishna488/repos",{ cache: 'no-store' });
   const data = await res.json();
   return data ;
 };
