@@ -1,4 +1,5 @@
 import Header from './components/Header'
+import Script from 'next/script'
 import './globals.css'
 
 export const metadata = {
@@ -13,6 +14,8 @@ export default function RootLayout({ children }) {
   
   return (
     <html lang="en">
+    <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4956894271613471"
+     crossorigin="anonymous"></Script>
       <body >
         <Header/>
         {children}
